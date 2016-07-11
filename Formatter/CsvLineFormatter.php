@@ -70,7 +70,13 @@ class CsvLineFormatter
     }
     
     
-    protected function formatArray (array $array_value)
+    /**
+     * Formats given array tocombined string value
+     * 
+     * @param       array       $array_value
+     * @return      string
+     */
+    public function formatArray (array $array_value)
     {
         $results = array();
         $is_single = false;
