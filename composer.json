@@ -1,6 +1,6 @@
 {
-	"name": "gacek85/linkedin-crawler",
-	"description": "Crawler tool for LinkedIn public profiles",
+	"name": "gacek85/linkedin-parser",
+	"description": "Parser tool for LinkedIn public profiles",
 	"authors": [
 		{
 			"name": "Maciej Garycki",
@@ -21,7 +21,8 @@
         "bin-dir": "bin/"
     },
 	"require-dev": {
-		"phpunit/phpunit": "~3.7.0"
+		"phpunit/phpunit": "~3.7.0",
+        "fzaninotto/Faker": "~1.6.0"
 	},
 	"autoload": {
 		"psr-0": {

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1c1be5b9ec5c977bf554fce00d32bcce",
-    "content-hash": "0331d7d5767d5fcc6bfad93d48f6dba9",
+    "hash": "ffe6fbc684e8fb05675926cb2684d678",
+    "content-hash": "6ab31d6ceb85ecb5a20e072b9dcd8206",
     "packages": [
         {
             "name": "filp/whoops",
@@ -492,6 +492,56 @@
         }
     ],
     "packages-dev": [
+        {
+            "name": "fzaninotto/faker",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fzaninotto/Faker.git",
+                "reference": "dd11a96f9c9001cff464b29e18783a1ad6fb260d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/dd11a96f9c9001cff464b29e18783a1ad6fb260d",
+                "reference": "dd11a96f9c9001cff464b29e18783a1ad6fb260d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.3|^7.0"
+            },
+            "require-dev": {
+                "ext-intl": "*",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~1.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.6.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Faker\\": "src/Faker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "François Zaninotto"
+                }
+            ],
+            "description": "Faker is a PHP library that generates fake data for you.",
+            "keywords": [
+                "data",
+                "faker",
+                "fixtures"
+            ],
+            "time": "2016-07-11 07:07:15"
+        },
         {
             "name": "phpunit/php-code-coverage",
             "version": "1.2.x-dev",

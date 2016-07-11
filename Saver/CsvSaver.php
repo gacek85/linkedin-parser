@@ -9,9 +9,7 @@ use RuntimeException;
 /**
  *  Saves the data in CSV
  *
- *  @author Maciej Garycki <maciej@neverbland.com>
- *  @company Neverbland
- *  @copyrights Neverbland 2015
+ *  @author Maciej Garycki <maciekgarycki@gmail.com>
  */
 class CsvSaver implements SaverInterface 
 {
