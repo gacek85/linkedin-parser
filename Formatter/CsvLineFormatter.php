@@ -15,17 +15,17 @@ class CsvLineFormatter
      * Formats entry into a single line of csv
      * 
      * @param       LinkedInEntry       $entry
-     * @param       int                 $line_counter
+     * @param       int                 $add_headers
      */
-    public function formatLine (LinkedInEntry $entry, $line_counter)
+    public function formatLine (LinkedInEntry $entry, $add_headers)
     {
         $results = array();
-        if (!$line_counter) {
+        if ($add_headers) {
             $results[] = $this->getHeaders($entry);
         }
         $results[] = $this->formatEntry($entry);
         
-        return implode("\n", $results);
+        return implode("\n\r", $results);
     }
     
     

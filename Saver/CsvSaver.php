@@ -73,7 +73,7 @@ class CsvSaver implements SaverInterface
         file_put_contents($output_path, "\xEF\xBB\xBF", FILE_APPEND); // That shit fixes UTF8 encoding! WTF?!?!
         foreach ($entries as $entry) {
             $formatter = new CsvLineFormatter();
-            $line = $formatter->formatLine($entry, $counter);
+            $line = $formatter->formatLine($entry, !$counter);
             $this->storeLine($output_path, $line);
             $counter++;
         } 

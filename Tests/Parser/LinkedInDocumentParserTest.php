@@ -3,14 +3,14 @@ namespace Gacek85\LinkedInCrawler\Tests\Parser;
 
 use Gacek85\LinkedInCrawler\Parser\LinkedInDocumentParser;
 use Gacek85\LinkedInCrawler\Parser\LinkedInEntry;
-use PHPUnit_Framework_TestCase;
+use Gacek85\LinkedInCrawler\Tests\LinkedInAwareTestcase;
 
 /**
  *  Test case for LinkedInDocumentParser
  *
  *  @author Maciej Garycki <maciekgarycki@gmail.com>
  */
-class LinkedInDocumentParserTest extends PHPUnit_Framework_TestCase
+class LinkedInDocumentParserTest extends LinkedInAwareTestcase
 {
     /**
      *
